@@ -11,20 +11,22 @@ public class Castle : MonoBehaviour
 	{
 		
 	}
-	
-	// Update is called once per frame
+
 	void Update ()
 	{
 
 
 
 
+
+
 	}
 
-	public void addsc ()
+	public void AddSkileton ()
 	{  
 		var newSkeleton = GameObject.Instantiate (Skeleton);
 		newSkeleton.transform.SetParent (SpawnRoot);
 		newSkeleton.transform.localPosition = Vector3.zero;
+		newSkeleton.transform.LookAt (GameObject.FindGameObjectWithTag ("Finish").transform.position);
 	}
 }

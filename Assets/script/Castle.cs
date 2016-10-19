@@ -15,19 +15,10 @@ public class Castle : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		/*
-        if (_remainingTime <= 0)
-        {
-            var newSkeleton = Instantiate(Skeleton);
-            newSkeleton.transform.SetParent(SpawnRoot);
- //           newSkeleton.transform.localPosition = Vector3.zero;
-			Skeleton.transform.position =SpawnRoot.transform.position;
-			_remainingTime = SpawnTime;
-        }else
-        {
-            _remainingTime -= Time.deltaTime;
-        }
-*/
+
+
+
+
 	}
 
 	public void addsc ()
